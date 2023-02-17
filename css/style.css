@@ -156,12 +156,15 @@ img {
  @media screen and (max-width: 480px) {
 
 
-    .lessons .col{
-        width: 100%;
+    * {                                     /* per rimuovere spazi html vuoti */
+        max-height: 100%;             
     }
 
-    .lessons .card:first-child{
-        /* padding-bottom: 40px; */
+
+
+
+    .lessons .col{
+        width: 100%;
     }
 
 
@@ -176,10 +179,14 @@ img {
     }
 
 
-    .steps{
+
+
+    .steps{                                   /* per rimuovere spazi html vuoti */
         margin-bottom: 0;
-        padding-bottom: 3rem 0;
+        padding-bottom: 3rem 0;         
     }
+
+
 
 
     .steps .col{
@@ -190,7 +197,8 @@ img {
 
     .why-us .container{
         background-color: rgb(41, 40, 40);
-        padding-top: 48px;
+        padding:48px 0;
+        
     }
 
 
@@ -198,3 +206,7 @@ img {
         width: 100%;
     }
  }
+
+
+
+ /* / 768PX TO 480PX */
